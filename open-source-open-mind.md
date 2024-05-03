@@ -284,11 +284,7 @@ Has anybody ever tried to get a big company to pay for anything? Any of you folk
 
 But let me ask you another question: think about your company's Azure bill this month? Or AWS, or Google Cloud, or GitHub? Do you know what you actually paid for? Probably not - and, yes, there's a good chance a chunk of it is paying for free software because it's easier than running it yourself. But imagine a new line item appears on next months' bill: software packaging and delivery: ten dollars. Is your company going to quibble that? Or are they just going to go "welp, I guess that's a thing we do now." What if it was a hundred? What if it was a thousand dollars a month? 
 
-Imagine for a second that NuGet wasn't free. What if to use it, you had to register an account and include an authorization header in your requests.
-
-There's a free quota, so casual users - individuals, hobbyists, students - they can just use it.
-
-But if your company is using CircleCI, or Azure DevOps, or GitHub Actions, to run a dozen builds a day? You're going to blow through the free tier pretty quick... and then you've got a choice.
+Imagine for a second that NuGet wasn't necessarily. Let's start NuGet Premium. There's a free quota, so casual users - individuals, hobbyists, students - they can just use it. But if your company is using CircleCI, or Azure DevOps, or GitHub Actions, to run a dozen builds a day? You're going to blow through the free tier pretty quick... and then you've got a choice.
 
 You can download the source code from, GitHub, compile it yourself, package it... but, y'know, *effort*.
 
