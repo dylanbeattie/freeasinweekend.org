@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import 'rouge/base16.monokai.dark.css';
+
+html * {
+	background-color: #000;
+	color: #fff;
+}
+
+body {
+	max-width: 720px;
+	margin: 0px auto;
+	font-family: "Roboto";
+	padding: 16px 16px 48px 16px;
+}
+
+header {
+	text-align: center;
+
+	nav {
+		border-width: 1px 0 1px 0;
+		border-style: solid;
+		border-color: 1px;
+		padding: 16px;
+		a {
+			padding: 0px 8px;
+		}
+	}
+
+	h1 {
+		a {
+			text-decoration: none;
+
+		}
+
+		margin: 16px 0;
+		font-weight: 200;
+		letter-spacing: 0.2em;
+		;
+	}
+}
+
+article {
+	p {
+		line-height: 1.4em;
+	}
+
+	img {
+		display: block;
+		margin: 8px auto;
+		width: 90%;
+	}
+	div.highlighter-rouge {
+		border: 1px solid #fff;
+		background-color: #000 !important;
+		padding: 8px;
+		width: 100%;
+		overflow-x: auto;
+		margin: 16px 0;
+		font-family: Consolas !important;
+		line-height: 1.2em;
+		font-size: 1em;
+		div {
+			pre.highlight {
+				background-color: #000 !important;
+				margin-top: 0 !important;
+			}
+		}
+	}
+	blockquote {
+		margin-left: 0;
+		padding: 0px 16px;
+		border-left: 4px solid #8a5cf5;
+		font-style: italic;
+	}
+	ol li, ul li {
+		margin: 8px 0;
+	}
+}
+
+footer {
+	text-align: center;
+	font-size: 80%;
+	border-top: 1px solid #fff;
+	position: fixed;
+	bottom: 0px;
+	margin: 8px auto;
+	padding: 8px;
+	width: 100%;
+	max-width: 720px;
+}
+
+blockquote#hero {
+	text-align: center;
+	font-size: 160%;
+	border: 0;
+
+}

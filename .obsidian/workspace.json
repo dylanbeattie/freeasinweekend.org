@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "22af8bcec7e0774e",
+    "type": "split",
+    "children": [
+      {
+        "id": "72ffddb2d3812cf8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "150bf48c3214bf69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "open-source-open-mind.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c36a56b934731128",
+    "type": "split",
+    "children": [
+      {
+        "id": "697ccd4d6fe25a03",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5316ac99f61cd87e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9464f61d63172e80",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "49e9fdbee2b94aa5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "dec3b26841608e0e",
+    "type": "split",
+    "children": [
+      {
+        "id": "f9cbb2c58b2f46c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b69016096e23e5c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "open-source-open-mind.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "99477b6d231e5a5d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "open-source-open-mind.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e30d9306131daf51",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2430ede5f46a2e60",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "open-source-open-mind.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "150bf48c3214bf69",
+  "lastOpenFiles": [
+    "_site/assets/Pasted image 20240531152019.jpg",
+    "_site/assets/Pasted image 20240531170212.jpg",
+    "_site/assets/Pasted image 20240531170150.jpg",
+    "_site/assets/Pasted image 20240531170118.jpg",
+    "_site/assets/Pasted image 20240531170111.jpg",
+    "_site/assets/Pasted image 20240531170040.jpg",
+    "_site/assets/Pasted image 20240531170021.jpg",
+    "_site/assets/Pasted image 20240531165934.jpg",
+    "_site/assets/Pasted image 20240531165917.jpg",
+    "_site/assets/Pasted image 20240531165836.jpg",
+    "_site/assets/Pasted image 20240531165703.jpg",
+    "assets/7ADD7A00",
+    "index.md",
+    "sources.md",
+    "calculations.md",
+    "open-source-open-mind.md",
+    "_site/open-source-open-mind.html",
+    "_site/open-source-open-mind-long-draft.md",
+    "open-source-open-mind-long-draft.md",
+    "_site/index.html",
+    "_site/talk 1.html"
+  ]
+}
