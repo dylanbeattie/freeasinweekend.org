@@ -1,12 +1,20 @@
 ---
 layout: article
+article-css-class: hero
 ---
-<blockquote id="hero">“Free beer and free speech are all very well... but a free weekend? That's something worth paying for.”</blockquote>
-# tl,dr:
+<blockquote id="hero">“Free beer and free speech are all very well, but a free weekend? That's something worth paying for.”</blockquote>
 
-1. Companies use free and open source software to get rich. The folks maintaining that software don't get a share. That leads to stress and misery. Stressed, miserable people are vulnerable to social engineering attacks.
-2. If NuGet charged $15/month, it could pay maintainers $0.001 per download. For the most popular projects on NuGet, that's well over $10K per month.
-3. Charging a convenience fee for distributing free software isn't new. It's as old as the Red Hat Linux CD-ROMs you could buy in the 1990s.
-4. WASI represents a new paradigm for publishing and distributing packages. It's a chance to do something different.
+Critical software is maintained by unpaid volunteers, and that's not OK.
 
-Read Dylan Beattie's essay "[Open Source, Open Mind: The Cost of Free Software](open-source-open-mind)"
+Companies make millions from software they don't pay for. Asking them to pay is not the answer. We need to try something new.
+
+The cloud shows that people and companies will pay for convenience -- even if they don't end up owning anything.
+
+A site that charged $15/month for binary packages could pay maintainers $0.001 per download. For the most popular open source projects, that's over $10K per month.
+
+Don't want to pay? The source code is still free. Compile it yourself.
+
+The Web Assembly Systems Interface (WASI) represents a new paradigm for publishing and distributing packages. It's a chance to do something different.
+
+[Open Source, Open Mind: The Cost of Free Software](open-source-open-mind)
+

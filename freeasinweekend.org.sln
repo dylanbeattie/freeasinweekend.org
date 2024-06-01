@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NugetCat", "NugetCat\NugetCat.csproj", "{D1D93CB2-8DCA-483D-9B44-41F7E7FA71AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_site", "_site", "{F627AF27-8E4C-4C71-B288-FA20D6DB4937}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NugetCat", "_site\NugetCat\NugetCat.csproj", "{F4585317-0923-40AE-9ED5-A237E36C932D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1D93CB2-8DCA-483D-9B44-41F7E7FA71AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D93CB2-8DCA-483D-9B44-41F7E7FA71AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D93CB2-8DCA-483D-9B44-41F7E7FA71AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D93CB2-8DCA-483D-9B44-41F7E7FA71AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4585317-0923-40AE-9ED5-A237E36C932D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4585317-0923-40AE-9ED5-A237E36C932D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4585317-0923-40AE-9ED5-A237E36C932D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4585317-0923-40AE-9ED5-A237E36C932D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4585317-0923-40AE-9ED5-A237E36C932D} = {F627AF27-8E4C-4C71-B288-FA20D6DB4937}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F229CA9E-553D-4E60-BA3E-4CBF26541AD3}
+	EndGlobalSection
+EndGlobal

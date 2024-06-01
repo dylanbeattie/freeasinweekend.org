@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 445.5
   },
   "right": {
     "id": "dec3b26841608e0e",
@@ -146,8 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "150bf48c3214bf69",
+  "active": "5316ac99f61cd87e",
   "lastOpenFiles": [
+    "calculations.md",
+    "_site/assets/css/main.css.map",
+    "open-source-open-mind.md",
     "_site/assets/Pasted image 20240531152019.jpg",
     "_site/assets/Pasted image 20240531170212.jpg",
     "_site/assets/Pasted image 20240531170150.jpg",
@@ -158,12 +161,9 @@
     "_site/assets/Pasted image 20240531165934.jpg",
     "_site/assets/Pasted image 20240531165917.jpg",
     "_site/assets/Pasted image 20240531165836.jpg",
-    "_site/assets/Pasted image 20240531165703.jpg",
     "assets/7ADD7A00",
     "index.md",
     "sources.md",
-    "calculations.md",
-    "open-source-open-mind.md",
     "_site/open-source-open-mind.html",
     "_site/open-source-open-mind-long-draft.md",
     "open-source-open-mind-long-draft.md",

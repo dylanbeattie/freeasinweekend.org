@@ -10,7 +10,8 @@ body {
 	max-width: 720px;
 	margin: 0px auto;
 	font-family: "Roboto";
-	padding: 16px 16px 48px 16px;
+	padding: 16px 16px 0px 16px;
+	min-height: calc(100vh - 16px);
 }
 
 header {
@@ -20,7 +21,8 @@ header {
 		border-width: 1px 0 1px 0;
 		border-style: solid;
 		border-color: 1px;
-		padding: 16px;
+		padding: 8px 16px;
+
 		a {
 			padding: 0px 8px;
 		}
@@ -32,7 +34,8 @@ header {
 
 		}
 
-		margin: 16px 0;
+		font-size: 150%;
+		margin: 8px 0;
 		font-weight: 200;
 		letter-spacing: 0.2em;
 		;
@@ -40,6 +43,9 @@ header {
 }
 
 article {
+	&.hero {
+		text-align: center;
+	}
 	p {
 		line-height: 1.4em;
 	}
@@ -49,6 +55,7 @@ article {
 		margin: 8px auto;
 		width: 90%;
 	}
+
 	div.highlighter-rouge {
 		border: 1px solid #fff;
 		background-color: #000 !important;
@@ -59,6 +66,7 @@ article {
 		font-family: Consolas !important;
 		line-height: 1.2em;
 		font-size: 1em;
+
 		div {
 			pre.highlight {
 				background-color: #000 !important;
@@ -66,32 +74,50 @@ article {
 			}
 		}
 	}
+
 	blockquote {
 		margin-left: 0;
 		padding: 0px 16px;
 		border-left: 4px solid #8a5cf5;
 		font-style: italic;
 	}
-	ol li, ul li {
+
+	ol li,
+	ul li {
 		margin: 8px 0;
 	}
 }
 
 footer {
-	text-align: center;
-	font-size: 80%;
-	border-top: 1px solid #fff;
-	position: fixed;
-	bottom: 0px;
-	margin: 8px auto;
-	padding: 8px;
+	display: flex;
 	width: 100%;
-	max-width: 720px;
+	justify-content: center;
+	position: sticky;
+	top: 100%;
+	margin: 0;
+	padding: 0;
+	div {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		text-align: center;
+		font-size: 80%;
+		border-top: 1px solid #fff;
+		margin: 0;
+		padding: 8px;
+		width: 100%;
+		max-width: 720px;
+		span {
+			margin: 0px 8px 8px 8px;
+		}
+	}
 }
 
 blockquote#hero {
 	text-align: center;
-	font-size: 160%;
+	font-size: 140%;
 	border: 0;
-
+	margin: 16px auto;
+	padding: 0;
+	max-width: 520px;
 }

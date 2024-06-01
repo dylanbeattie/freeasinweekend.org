@@ -1,10 +1,11 @@
 ---
 layout: article
 ---
-# Open Source, Open Mind: The Cost of Free Software
-### Dylan Beattie
+# Open Source, Open Mind:
 
-#### June 2024
+### The Cost of Free Software
+
+[Dylan Beattie](dylan@dylanbeattie.net), June 2024
 
 There's an emotional cycle that I'm sure most of you folks in this room can relate to. It starts with desire. You see the latest new thing - a smartphone, a laptop, maybe even something as apparently mundane as a new text editor - and you *need it*, because it is *shiny* and if you don't have it you will never be happy. Then comes the installation. Whether you're unboxing a new gadget, or installing a new app... you know that feeling. "I wonder what it can do?"
 
@@ -170,13 +171,13 @@ So… why do people contribute to open source if they have to sign away their ow
 
 In a lot of cases, it’s because they get paid. The vast majority of code in the .NET runtime was written by Microsoft employees: they get paid a salary to write code, the code they write belongs to the .NET Foundation, the Foundation publishes it under an MIT license, everybody wins… right? Many of the core contributors to PostgreSQL actually work for Amazon, most of the folks who contribute to React work at Facebook. These are all companies with shareholders: they have a legal obligation to those shareholders to make profit, and so at some point they must have sat down with a bunch of lawyers and a bunch of spreadsheets and decided that open source was a good way to do that.
 
-I do think some folks honestly do it for fun, or for the ego boost. That’s fine. Humans are weird and as long as you’re not hurting anybody, I don’t care how you get your kicks.
+I do think some folks honestly do it for fun, or for the ego boost -- which is fine, as long as your ego boost doesn't end up as a critical component in somebody else's banking system.
 
 But then there’s the folks who contribute to open source because they think it’ll eventually make them some money. There was this lovely idea floating around for a long while that, hey, let's all give our code away for free, and then people can look at the code, and use it, and see how amazingly wonderfully good it is, and then they'll hire us! Or they'll pay for a support contract, or they'll hire us to provide some training, or they'll buy a corporate license just because they're honest, decent folk who want to do the right thing…
 
 Didn't quite work out that way, did it? The world we live in is full of Sammy Squirrel developers trying to stockpile enough acorns for the winter while Jeff the Raccoon flies around in his solid gold helicopter that he made by selling free software.
 
-Within the last few years, we've seen a bunch of projects switch from permissive licenses to some sort of dual licensing model: MongoDB, ImageSharp, Docker, Terraform, Unity, and most recently Redis. Redis is a hugely popular in-memory cache database. It's been around for fifteen years, it's written in C, it's blisteringly fast, and until March this year, it was published under the BSD license.
+Within the last few years, we've seen a bunch of projects switch from permissive licenses to some sort of dual licensing model: MongoDB, ImageSharp, Docker, Terraform, Unity, and most recently Redis. Redis is a hugely popular in-memory cache database. It's been around for fifteen years, it's written in C, it's blisteringly fast, and until March 2024, it was published under the BSD license.
 
 In March, Redis announced that they were switching their licenses. Future versions would no longer be distributed under the BSD license, and Redis went so far as to explicitly state that "cloud service providers hosting Redis offerings will no longer be permitted to use the source code of Redis free of charge" - and, sure enough, the woodland folk didn't like that one bit. Within days, a new community project, Valkey, had sprung up, based on a fork of the latest BSD license of the Redis codebase. Microsoft announced Garnet, a new key/value store which is protocol compatible with existing Redis clients.
 
@@ -248,8 +249,7 @@ And then: we pay the package authors. Now, we're not selling software here - any
 
 How much? Let's work out some numbers.
 
-![[Pasted image 20240531152019.png]]
-
+![](assets/Pasted%20image%2020240531152019.png)
 
 NuGet doesn't publish total download figures, but they do publish download figures for their 100 most popular packages, so we can plot those figures on a chart, and use Excel to find a trend line for that data series. The equation for that line is here:
 

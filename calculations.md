@@ -16,7 +16,7 @@ I based all this figures available at [https://www.nuget.org/stats](https://www.
 
 NuGet doesn't publish total download figures, but at they do publish the [top 100 community packages over the last 6 weeks](https://www.nuget.org/stats/packages).
 
-I copied this data into Excel, plotted it as a scatter graph, and added a power trend line. The Excel file is here: [nuget-top-100-package-downloads-20240530.xlsx](nuget-top-100-package-downloads-20240530)
+I copied this data into [this Excel spreadsheet](nuget-top-100-package-downloads-20240530.xlsx), plotted it as a scatter graph, and added a power trend line:
 
 ![assets/nuget-package-download-graph.png](assets/nuget-package-download-graph.png)
 
@@ -29,9 +29,7 @@ Integrating that curve should give a reasonable estimate for the total number of
 
 ### Unique NuGet Users
 
-This one's the fudgiest step of the whole process. I added up the total number of downloads of Newtonsoft.Json, the most popular package on NuGet:
-
-* [https://www.nuget.org/stats/packages/Newtonsoft.Json?groupby=Version](https://www.nuget.org/stats/packages/Newtonsoft.Json?groupby=Version)
+This one's the fudgiest step of the whole process. I added up the [total number of downloads](https://www.nuget.org/stats/packages/Newtonsoft.Json?groupby=Version) of Newtonsoft.Json, the most popular package on NuGet, in the last six weeks.
 
 That's 145,018,735 downloads in six weeks, or 145,018,735/6 = 24,169,789 downloads per week. Then, in the absence of any better data, I estimated the average NuGet user downloads Newtonsoft.Json ten times a week, giving 2.4 million active users.
 
@@ -39,7 +37,7 @@ That's 145,018,735 downloads in six weeks, or 145,018,735/6 = 24,169,789 downloa
 
 I wanted to find out how many of the 404,574+ packages on NuGet are actually actively maintained. This one was a little trickier: NuGet doesn't publish that data on the web, but it *is* available via the NuGet API... only problem is, that's a *huge* dataset. The NuGet API exposes a resource called the **catalog**, an [append-only data set that shows the full history](https://learn.microsoft.com/en-us/nuget/guides/api/query-for-all-published-packages#overview) of packages added to, modified and deleted from nuget.org.
 
-I wrote a little .NET console app that retrieves entries from the NuGet catalog and loads them into a local SQL database - you can find the whole thing on GitHub, or in [NugetCat.zip](NugetCat.zip)
+I wrote a  .NET console app that retrieves entries from the NuGet catalog and loads them into a local SQL database - you can find the whole thing on GitHub, or in [NugetCat.zip](NugetCat.zip)
 
 Data table definition:
 
@@ -75,34 +73,9 @@ GROUP BY PackageId
 
 That gave me 138,843 unique packages which have had a release/update since 1st June 2023.
 
-> In case you're curious... there are four packages - Octopus.Server.MessageContracts.Base.HttpRoutes, Octopus.Server.MessageContracts.HttpRoutes,
-Octopus.Server.MessageContracts, and Octopus.Server.MessageContracts.Base, which all had 5,916 releases when I wrote this - an average of 16 releases per day. At the other extreme, there's over 34,000 packages which have only had a single release in the last twelve months.
+In case you're curious: the most active packages on NuGet are four packages which are part of Octopus Server  ([1](https://www.nuget.org/packages/Octopus.Server.MessageContracts.Base), [2](https://www.nuget.org/packages/Octopus.Server.MessageContracts.Base.HttpRoutes), [3](https://www.nuget.org/packages/Octopus.Server.MessageContracts), [4](https://www.nuget.org/packages/Octopus.Server.MessageContracts.HttpRoutes)), all of which had 5,916 releases when I wrote this - an average of 16 releases per day. At the other extreme, there's over 34,000 packages which have only had a single release in the last twelve months.
 
-So that's where I got the numbers that I used in the revenue model I go through in the talk: 138,843 active packages, and 2.4 million active users.
+Anyway. That's where I got the numbers that I used in the revenue model I go through in the talk: 138,843 active packages, and 2.4 million active users.
 
 Plugging that 138,843 into [the Wolfram Alpha integral](https://www.wolframalpha.com/input?i2d=true&i=Integrate%5B1E8Power%5Bx%2C-0.533%5D%2C%7Bx%2C1%2C138843%7D%5D) gives an estimate of 53,767,000,000 total downloads in the last six weeks.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
