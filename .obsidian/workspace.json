@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "72ffddb2d3812cf8",
+        "id": "cf761800a989a0ca",
         "type": "tabs",
         "children": [
           {
-            "id": "150bf48c3214bf69",
+            "id": "37e02606bb8aa74e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,11 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5316ac99f61cd87e",
+  "active": "37e02606bb8aa74e",
   "lastOpenFiles": [
+    "open-source-open-mind.md",
+    "_site/NugetCat/obj/e0c6b54f-ac70-451c-8b41-0429e70fb3dd.tmp",
     "calculations.md",
     "_site/assets/css/main.css.map",
-    "open-source-open-mind.md",
     "_site/assets/Pasted image 20240531152019.jpg",
     "_site/assets/Pasted image 20240531170212.jpg",
     "_site/assets/Pasted image 20240531170150.jpg",

@@ -1,9 +1,10 @@
 ---
 layout: article
 ---
-# Open Source, Open Mind:
+# Open Source, Open Mind: The Cost of Free Software
 
-### The Cost of Free Software
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vzYqxo13I1U?si=afOPlKDByvReMvBC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 [Dylan Beattie](dylan@dylanbeattie.net), June 2024
 
@@ -235,7 +236,7 @@ Has anybody ever tried to get a big company to pay for anything? Any of you folk
 
 But let me ask you another question: think about your company's Azure bill this month? Or AWS, or Google Cloud, or GitHub? Do you know what you actually paid for? Probably not - and, yes, there's a good chance a chunk of it is paying for free software because it's easier than running it yourself. But imagine a new line item appears on next months' bill: software packaging and delivery: ten dollars. Is your company going to quibble that? Or are they just going to go "welp, I guess that's a thing we do now." What if it was a hundred? What if it was a thousand dollars a month?
 
-Now, we're going to use NuGet as our example here, because it's a platform I know very well. Let's imagine for a second that NuGet wasn't necessarily free. 
+Now, we're going to use NuGet as our example here, because it's a platform I know very well. Let's imagine for a second that NuGet wasn't necessarily free.
 
 Let's start NuGet Premium. There's a free quota, so casual users - individuals, hobbyists, students - they can just use it. But if your company is using CircleCI, or Azure DevOps, or GitHub Actions, to run a dozen builds a day? You're going to blow through the free tier pretty quick... and then you've got a choice.
 
@@ -272,7 +273,7 @@ OK, here's our baseline numbers. 53 billion downloads every six weeks is 40 bill
 
 Basic costs fifteen dollars a month. There's an indie plan which is 75, and enterprise is 500. Assume half our users are on the free tier, 10% are indie, 1% are enterprise, the rest are basic.
 
-That'll bring in 43 million dollars a month. Let's keep three million for snacks. Or, y'know, hosting and salaries and admin. But mainly snacks. 
+That'll bring in 43 million dollars a month. Let's keep three million for snacks. Or, y'know, hosting and salaries and admin. But mainly snacks.
 
 So there we go. 40 billion downloads a month, 40 million dollars a month… we can pay 0.1 cents per download.
 
@@ -284,7 +285,11 @@ The middle tier, projects like ImageSharp? We're talking the kind of money that 
 
 And then way down the list, projects like Naudio… we're talking a hundred dollars a month. Not much, but that's a new dev laptop every few years, or a night out with your partner to make up for spending all weekend at your desk again.
 
-But remember: all we're talking about here is paying for convenience. Folks who subscribe to NuGet Pro don't own the software, just like paying for Disney+ doesn't mean I own Star Wars. It's a delivery service for code which is provided to you under whatever license the authors consider appropriate, whether that's a paid license, a permissive open source license, the GPL, or it's completely in the public domain. We're doing the 2024 equivalent of charging ten bucks for a Red Hat Linux CD-ROM because downloading it over dialup is a pain in the ass.
+This also doesn't solve the fundamental problem of the economics of free software, which is that in a capitalist society motivated by profit, the winning strategy is not to *reward* altruism, it's to exploit it. The line has to go up, and if the line stops going up and the shareholders find out you were being *nice*, that's probably not going to end well.
+
+Maybe, though, something like this could start moving the needle. Maybe it's a step towards us all acknowledging that installing software components in two mouse clicks is a convenience worth paying for, even if the actual code doesn't cost anything - and normalising the idea that the folks who created that package can expect to get paid when their work gets used.
+
+Remember: all we're talking about here is paying for convenience. Folks who subscribe to NuGet Pro don't own the software, just like paying for Spotify doesn't mean I own any Taylor Swift albums. We're talking about Deliveroo for binaries: delivery service for code which is provided to you under whatever license the authors consider appropriate, whether that's a paid license, a permissive open source license, the GPL, or it's completely in the public domain. We're doing the 2024 equivalent of charging ten bucks for a Red Hat Linux CD-ROM because downloading it over dialup is a pain in the ass.
 
 Of course, this is never going to happen. Every mainstream development platform has a free package repository: NuGet, npm, maven, Ruby Gems… change any of those to a premium service and the woodland folk would riot.
 

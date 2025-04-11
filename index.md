@@ -14,7 +14,7 @@ A site that charged $15/month for binary packages could pay maintainers $0.001 p
 
 Don't want to pay? The source code is still free. Compile it yourself.
 
-The Web Assembly Systems Interface (WASI) represents a new paradigm for publishing and distributing packages. It's a chance to do something different.
+The status quo is broken, and I don't think we can fix it. But the Web Assembly Systems Interface (WASI) represents a new paradigm for publishing and distributing packages. It's a chance to do something different.
 
 [Open Source, Open Mind: The Cost of Free Software](open-source-open-mind)
 
